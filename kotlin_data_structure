@@ -1,6 +1,14 @@
 //Kotlin Input
-  println("Enter your name")
+    println("Enter your name")
     val name = readLine()
     println("Enter your age")
     val age : Int = Integer.valueOf(readLine())
     println("your name is $name and your age is $age")
+//Input funcs
+    val name = readLine() --- to read string
+//for other input other than string
+    val read = Scanner(System.`in`)
+    var age = read.nextInt() -- to read integer
+    println("your input age is $age")
+    The other data types Boolean, Float, Long and Double uses nextBoolean(), nextFloat(), nextLong() and nextDouble() to get input from user.
+    
