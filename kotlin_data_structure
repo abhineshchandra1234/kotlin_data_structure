@@ -11,4 +11,5 @@
     var age = read.nextInt() -- to read integer
     println("your input age is $age")
     The other data types Boolean, Float, Long and Double uses nextBoolean(), nextFloat(), nextLong() and nextDouble() to get input from user.
+  
     
