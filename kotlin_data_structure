@@ -14,3 +14,14 @@
 //Comments
     // abcd -- single line comment
     /* abcd  */ -- multi line comment
+//if-else
+    //single line
+        val result = if (num1 > num2) "$num1 is greater than $num2" else "$num1 is smaller than $num2"  
+    //nested
+        val result = if (num > 0) {
+         "$num is positive"
+        } else if (num < 0) {
+         "$num is negative"
+        } else {
+         "$num is zero"
+            }    
