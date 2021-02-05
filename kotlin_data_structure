@@ -26,12 +26,18 @@
          "$num is zero"
             }    
 //when
-    var number = 4  
-    when(number) {  
-        1 -> println("One")  
-        2 -> println("Two")  
-        3 -> println("Three")  
-        4 -> println("Four")  
-        5 -> println("Five")  
-        else -> println("invalid number")  
-    }  
+    var number = -12
+    when(number) {
+        3, 4, 5, 6 -> {
+            println("It is summer season")
+            println("It is a good weather")
+        }
+        7, 8, 9 -> {
+            println("It is rainy season")
+        }
+        10, 11 ->
+            println("It is autumn season")
+        12, 1, 2 ->
+            println("It is winter season")
+        else -> println("invalid input")
+    } 
