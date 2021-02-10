@@ -83,3 +83,12 @@
         println(i)
         ++i
     }while (i<=5)
+//Kotlin Return and Jump    
+    //Break Expression
+        //It terminate the nearest enclosing ----loop-----
+        for (i in 1..5) {  
+        if (i == 3) {  
+            break  
+            }  
+           println(i)  
+         }  
