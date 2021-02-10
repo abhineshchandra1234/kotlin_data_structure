@@ -85,8 +85,8 @@
     }while (i<=5)
 //Kotlin Return and Jump    
     //Break Expression
-        //It terminate the nearest enclosing ----loop-----
-        for (i in 1..5) {  
+        //It terminates the nearest enclosing ----loop-----
+        for (i in 1..5) { -->>1,2
         if (i == 3) {  
             break  
             }  
