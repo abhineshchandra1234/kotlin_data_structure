@@ -143,3 +143,13 @@
     this is below if
     i = 3 and j = 3
     this is below if   
+//function
+    //Parameterize Function and Return Value
+    If a function does not returns any value than its return type is Unit. It is optional to specify the return type of function definition which does not returns any value.
+    val result = sum(5, 6)  
+    print(result)  
+    }  
+    fun sum(number1: Int, number2:Int): Int{  
+        val add = number1+number2  
+    return add  
+    }  
