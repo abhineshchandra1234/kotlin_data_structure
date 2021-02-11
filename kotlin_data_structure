@@ -182,3 +182,14 @@
     fun example(a: Int = 7, b: String = "hello") {
     println("value of a is $a and value of b is $b")
     }
+    //Named Argument
+    A named argument is an argument in which we define the name of argument in the function call.
+    The name defined to argument of function call checks the name in the function definition and assign to it.
+    fun main() {
+    example("chandra")  -> Kotlin: Type mismatch: inferred type is String but Int was expected
+    example(c = "chandra") -> Kotlin: Cannot find a parameter with this name: c
+    example(b = "chandra") -> value of a is 7 and value of b is chandra
+    } 
+    fun example(a: Int = 7, b: String = "hello") {
+    println("value of a is $a and value of b is $b")
+    }
