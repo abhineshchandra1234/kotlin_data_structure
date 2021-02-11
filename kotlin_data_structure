@@ -174,6 +174,9 @@
     hello 5
 //Argument
     //Default Argument
+    If a function is called without passing any argument than default argument are used as parameter of function definition.
+    And when a function is called using argument, than the passing argument is used as parameter in function definition.
+    //code
     fun main() {
     example() -> value of a is 7 and value of b is hello
     example(10) -> value of a is 10 and value of b is hello
@@ -185,6 +188,7 @@
     //Named Argument
     A named argument is an argument in which we define the name of argument in the function call.
     The name defined to argument of function call checks the name in the function definition and assign to it.
+    //code
     fun main() {
     example("chandra")  -> Kotlin: Type mismatch: inferred type is String but Int was expected
     example(c = "chandra") -> Kotlin: Cannot find a parameter with this name: c
