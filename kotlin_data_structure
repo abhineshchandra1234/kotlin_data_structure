@@ -153,3 +153,32 @@
         val add = number1+number2  
     return add  
     }  
+    //Recursion Function
+    Recursion function is a function which calls itself continuously. This technique is called recursion.
+    fun main() {
+     rec()
+    }
+    var count = 0
+    fun rec() {
+    count++
+    if (count<=5)  {
+        println("hello " +count)
+        rec()
+    }
+    }
+    //output
+    hello 1
+    hello 2
+    hello 3
+    hello 4
+    hello 5
+//Argument
+    //Default Argument
+    fun main() {
+    example() -> value of a is 7 and value of b is hello
+    example(10) -> value of a is 10 and value of b is hello
+    example(30,"chandra") -> value of a is 30 and value of b is chandra
+    }
+    fun example(a: Int = 7, b: String = "hello") {
+    println("value of a is $a and value of b is $b")
+    }
