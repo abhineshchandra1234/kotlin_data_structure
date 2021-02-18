@@ -197,3 +197,11 @@
     fun example(a: Int = 7, b: String = "hello") {
     println("value of a is $a and value of b is $b")
     }
+//Lambdas Expressions and Anonymous Functions
+    A function without name is called anonymous function. For lambda expression we can say that it is anonymous function.
+    //code
+     val company = { println("GeeksforGeeks")}
+    company()
+    //output
+    GeeksforGeeks
+    
