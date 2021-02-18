@@ -204,4 +204,13 @@
     company()
     //output
     GeeksforGeeks
-    
+    //syntax
+    val lambda_name : Data_type = { argument_List -> code_body }
+    //code
+    val sum1 = {a:Int,b:Int -> a+b}
+    println(sum1(3,4))
+    val mul:(Int,Int) -> Int = {a,b -> a*b}
+    println(mul(4,5))
+    //output
+    7
+    20
