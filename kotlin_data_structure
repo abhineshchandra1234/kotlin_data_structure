@@ -273,3 +273,16 @@
     highFunc("I am awesome",::printMe)
     } */
     //output /* I am awesome */
+    
+    //passing function which returns integer
+    /* fun add(a: Int, b: Int): Int {
+    return a+b
+    }
+    fun highFunc(a: Int,b: Int,add:(Int,Int)->Int) {
+    println(add(a, b))
+    }
+    fun main(){
+    highFunc(4,5,::add)
+    }   */
+    //output /* 9 */
+    
