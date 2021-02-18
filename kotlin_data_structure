@@ -239,4 +239,15 @@
 // Higher-Order Functions
     High order function (Higher level function) is a function which accepts function as a parameter or returns a function or can do both.
     Instead of Integer, String or Array as a parameter to function, we will pass anonymous function or lambdas.
-    
+    //lambda expression which returns Unit-
+    //code
+    /*
+    var lambda = { println("kotlin is cool!")}
+    fun higherFunct(lmd: () -> Unit) {
+    lmd()
+    }
+    fun main() {
+    higherFunct(lambda)
+    }
+    */
+    //output -> kotlin is cool!
