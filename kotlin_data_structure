@@ -285,4 +285,4 @@
     highFunc(4,5,::add)
     }   */
     //output /* 9 */
-    
+    Note - we pass ::func_name while passing it to higher func whereas we pass just lambda_name 
