@@ -214,3 +214,14 @@
     //output
     7
     20
+    We must explicitly declare the type of our lambda expression. If lambda returns no value then we can use: Unit
+    //code
+    val result: (Int) -> Unit = { a -> println(a)}
+    result(8)
+    //output
+    8
+    //Note
+    Best practice is to pass type of arguments and let complier return type automatically
+    you can treat it as normal func eg - write code after "->"
+    -> num = a+b
+    println(num)
