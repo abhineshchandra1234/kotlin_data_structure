@@ -261,3 +261,15 @@
     higherFunct(lambda)
     } */
     //ouput /* the sum of two numbers is 6 */
+    
+    //passing function which returns Unit
+    /* fun printMe(s: String) {
+    println(s)
+    }
+    fun highFunc(s: String,myFunc:(String) -> Unit) {
+    myFunc(s)
+    }
+    fun main() {
+    highFunc("I am awesome",::printMe)
+    } */
+    //output /* I am awesome */
