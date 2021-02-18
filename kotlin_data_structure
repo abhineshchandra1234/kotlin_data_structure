@@ -251,3 +251,13 @@
     }
     */
     //output -> kotlin is cool!
+    //lambda expression which returns Integer
+    /* var lambda = { a:Int,b:Int -> a+b}
+    fun higherFunct(lmd: (Int,Int) -> Int) {
+    var result = lmd(2,4)
+    println("the sum of two numbers is "+ result)
+    }
+    fun main() {
+    higherFunct(lambda)
+    } */
+    //ouput /* the sum of two numbers is 6 */
