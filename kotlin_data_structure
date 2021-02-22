@@ -309,3 +309,25 @@
     to reduce the memory overhead of such higher-order functions or lambda expressions, we can use
     the inline keyword which ultimately requests the compiler to not
     allocate memory and simply copy the inlined code of that function at the calling place.
+//Kotlin Array
+    Array in Kotlinis mutable in nature with fixed size which means we can perform both read and write operations on elements of array.
+    It can be of (Any) type also like mixed datatype
+    //change element at particular position
+        //The set() function is used to set element at particular index location.
+        /* var myArray1 = arrayOf(89,10,4,6,15)
+            fun main() {
+            myArray1.set(0,9)
+            myArray1[2] = 9
+            for (i in myArray1) {
+            println(i)
+            }
+            }   */
+        //output //9 10 9 6 15
+    //get element from particular position
+        //get() function is used to get element from specified index.
+        /* var myArray1 = arrayOf(89,10,4,6,15)
+           fun main() {
+           println(myArray1[2])
+            println(myArray1.get(3))
+           }    */
+        //output //4 6          
