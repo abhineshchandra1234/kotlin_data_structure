@@ -331,3 +331,13 @@
             println(myArray1.get(3))
            }    */
         //output //4 6          
+    //initialize array
+        //initialize an array of size 5 with default value as 0 and traverse its elements.
+        /* var myArray1 = Array<Int>(5){0}
+            fun main() {
+             myArray1[3] = 89
+            for (i in myArray1) {
+            println(i)
+            }
+            }   */
+        //output //0 0 0 89 0           
