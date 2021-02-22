@@ -341,3 +341,11 @@
             }
             }   */
         //output //0 0 0 89 0           
+    //traversing using range
+        /* var myArray1 = arrayOf(1,2,3,4,5)
+            fun main() {
+            for (i in 0..myArray1.size - 1) {
+            println(myArray1[i])
+            }
+            } */
+    //output //1 2 3 4 5           
