@@ -349,3 +349,15 @@
             }
             } */
     //output //1 2 3 4 5           
+//String
+    //Strings are immutable which means the length and elements cannot be changed after their creation.
+    //accessing string element
+        /* fun main()  {
+            var str = "hello world"
+            println(str[0])
+            println(str[str.length-1])
+            } */
+        output -> h d
+        /* val i = 10
+            println("i is $i") //i is 10
+            */
