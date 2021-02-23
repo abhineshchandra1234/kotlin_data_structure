@@ -361,3 +361,28 @@
         /* val i = 10
             println("i is $i") //i is 10
             */
+//try catch
+    //try-catch block is used for exception handling in the code. 
+    //Kotlin try block must be followed by either catch block or finally block or both.
+    //syntax
+    /* try {  
+    // some code  
+    }  
+    catch (e: SomeException) {  
+    // handler  
+    }  
+    finally {  
+    // optional finally block
+    // it will always execute
+    }  */
+    /* try {
+        val i = 20 / 0
+    } catch (e: Exception) {
+        println(e)
+    }
+    println("code below exception") */
+    //output
+    /* java.lang.ArithmeticException: / by zero
+    code below exception */
+    
+    println("code below exception")
