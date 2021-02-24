@@ -404,4 +404,4 @@
     /* arithmetic exception catch
     code after try catch... */
     //Note: At a time only one exception is occured and at a time only one catch block is executed.
-    
+    //Rule: All catch blocks must be placed from most specific to general i.e. catch for ArithmeticException must come before catch for Exception.
