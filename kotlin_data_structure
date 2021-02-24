@@ -386,3 +386,5 @@
     code below exception */
     
     println("code below exception")
+    //Multiple catch Block
+    //
