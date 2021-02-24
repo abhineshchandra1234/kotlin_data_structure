@@ -444,3 +444,19 @@
     Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at com.eegrab.kotlincoding.CodingPracticeKt.main(CodingPractice.kt:5)
 	at com.eegrab.kotlincoding.CodingPracticeKt.main(CodingPractice.kt) */
+//Kotlin throw keyword
+	//Kotlin throw keyword is used to throw an explicit exception. It is used to throw a custom exception.
+	//Syntax
+	//throw SomeException()  
+	/* fun main()  {
+    	validateAge(13)
+    	println("code after validation")
+	}
+	fun validateAge(i: Int) {
+    	if (i < 18) throw NullPointerException("under age")
+    	else println("eligible for drive")
+	} */
+	//output /* Exception in thread "main" java.lang.NullPointerException: under age */
+	/* validateAge(21) */
+	//output /* eligible for drive
+		code after validation	*/
