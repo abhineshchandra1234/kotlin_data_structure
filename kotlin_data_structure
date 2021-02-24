@@ -334,6 +334,7 @@
     //initialize array
         //initialize an array of size 5 with default value as 0 and traverse its elements.
         /* var myArray1 = Array<Int>(5){0}
+            var a = IntArray(5) //it will initialize array of length 5 with all elements as 0
             fun main() {
              myArray1[3] = 89
             for (i in myArray1) {
