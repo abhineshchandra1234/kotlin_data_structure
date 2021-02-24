@@ -388,4 +388,20 @@
     
     println("code below exception")
     //Multiple catch Block
-    //
+    //Kotlin multiple catch blocks are used when we are using different types of operation in try block which may causes different exceptions in try block.
+    /*  var a = IntArray(5)
+    try {
+        a[5] = 10/0
+    } catch (e : ArithmeticException) {
+        println("arithmetic exception catch")
+    } catch (e: ArrayIndexOutOfBoundsException) {
+        println("array index OutOfBounds exception")
+    } catch (e: Exception) {
+        println("parent exception class")
+    }
+    println("code after try catch...") */
+    //output 
+    /* arithmetic exception catch
+    code after try catch... */
+    //Note: At a time only one exception is occured and at a time only one catch block is executed.
+    
