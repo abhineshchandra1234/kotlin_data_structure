@@ -405,3 +405,26 @@
     code after try catch... */
     //Note: At a time only one exception is occured and at a time only one catch block is executed.
     //Rule: All catch blocks must be placed from most specific to general i.e. catch for ArithmeticException must come before catch for Exception.
+    //Nested try-catch block
+    //The requirement of nested try catch block is arises when a block of code generates an exception
+    //and within that block another code statements also generates another exception.
+    /* val nume = arrayOf(4, 8, 16, 32, 64, 128, 256, 512)
+    val deno = arrayOf(2, 0, 4, 4, 0, 8)
+    try {
+        for (i in nume.indices) {
+            try {
+                println(nume[i].toString() + " / " + deno[i] + " is "+nume[i]/deno[i])
+            } catch (e: ArithmeticException) {
+                println("cant divide by zero")
+            }
+        }
+    } catch (e: ArrayIndexOutOfBoundsException) {
+        println("element not found")
+    } */
+    //output
+    /* cant divide by zero
+    16 / 4 is 4
+    32 / 4 is 8
+    cant divide by zero
+    128 / 8 is 16
+    element not found */
