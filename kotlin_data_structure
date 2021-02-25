@@ -484,3 +484,9 @@
 		string is null
 		length is -1
 		*/
+//Smart cast
+	//Smart cast is a feature in which Kotlin compiler tracks conditions inside if expression.
+	If compiler founds a variable is not null of type nullable then the compiler will allow to access the variable.
+	/* var str : String? = "hello"
+    	println(str?.length) */
+	//output //5
