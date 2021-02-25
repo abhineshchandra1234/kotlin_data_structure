@@ -460,3 +460,11 @@
 	/* validateAge(21) */
 	//output /* eligible for drive
 		code after validation	*/
+//Kotlin Nullable Types and Non-Nullable Types
+	//variable is declared as nullable  
+	/* fun main()  {
+    	var str: String? = "hello"
+    	str = null
+    	println(str)
+	} */
+	//output //null
