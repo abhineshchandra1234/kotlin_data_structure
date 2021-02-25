@@ -453,7 +453,7 @@
     	println("code after validation")
 	}
 	fun validateAge(i: Int) {
-    	if (i < 18) throw NullPointerException("under age")
+    	if (i < 18) throw NullPointerException("under age") //you can throw any exception you want like airthmatic exception
     	else println("eligible for drive")
 	} */
 	//output /* Exception in thread "main" java.lang.NullPointerException: under age */
