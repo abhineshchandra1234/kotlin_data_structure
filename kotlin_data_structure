@@ -468,3 +468,19 @@
     	println(str)
 	} */
 	//output //null
+	//Checking for null in conditions
+		/* var str: String? = "hello"
+    		println("string is $str")
+	    var length = if (str!=null) str.length else -1
+	    println("length is $length")
+
+	    str = null
+	    println("string is $str")
+	    length = if (str!=null) str.length else -1
+	    println("length is $length")
+	    */
+	    //output /* string is hello
+		length is 5
+		string is null
+		length is -1
+		*/
