@@ -496,3 +496,6 @@
 	var len2:  Int = str2?.length ?:  -1  */
 	/* Elvis operator returns expression left to ?: i.e (str?. length) if it is not null otherwise it returns expression right to (?:)i.e(-1). 
 	The expression right side of Elvis operator evaluated only if the left side returns null.
+//Kotlin Array
+	//Array in Kotlin has mutable in nature with fixed size. Which means we can perform both read and writes operations on elements of array.
+	
