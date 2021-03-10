@@ -683,3 +683,34 @@
 	Id = 101
 	password = mypassword
 	*/
+	//Calling one secondary constructor from another secondary constructor of same class
+	In Kotlin, one secondary constructor can call another secondary constructor of same class. This is done by using this() keyword.
+	//Code
+	/* class myClass {
+
+	    constructor(name: String, id: Int): this(name,id,"mypassword"){
+		println("this executes next")
+		println("Name = $name")
+		println("Id = $id")
+	    }
+
+	    constructor(name: String, id: Int, pass: String) {
+		println("this executes first")
+		println("Name = $name")
+		println("Id = $id")
+		println("Pass = $pass")
+	    }
+		}
+
+	fun main() {
+	    var myclass = myClass("abhinesh",543)
+	} */
+	//Output
+	/* this executes first
+	Name = abhinesh
+	Id = 543
+	Pass = mypassword
+	this executes next
+	Name = abhinesh
+	Id = 543
+	*/
