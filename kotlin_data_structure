@@ -638,3 +638,25 @@
 	//Output
 	/* Name = Ashu
 	Id = 101 */
+//Kotlin secondary constructor
+	In Kotlin, secondary constructor can be created one or more in class. The secondary constructor is created using "constructor" keyword.
+	//Code
+	/* class myClass{
+    	constructor(name: String,id: Int){
+        println("Name = $name")
+        println("Id = $id")
+    	}
+
+    	constructor(name: String)  {
+        println("employee name is $name")
+    	}
+	}
+
+	fun main() {
+    	var myclass = myClass("Ashu",101)
+    	myclass = myClass("abhinesh chandra")
+	} */
+	//Output
+	/* Name = Ashu
+	Id = 101
+	employee name is abhinesh chandra */
