@@ -660,3 +660,26 @@
 	/* Name = Ashu
 	Id = 101
 	employee name is abhinesh chandra */
+//primary as well as secondary constructor in a same class
+	//By using primary as well secondary constructor in same class, secondary constructor needs to authorize to primary constructor.
+	Authorization to another constructor in same class is done using this() keyword.
+	//Code
+	/* class myClass(password: String)   {
+
+    	constructor(name: String, id: Int, password: String): this(password){
+       		println("Name = $name")
+        	println("Id = $id")
+        	println("password = $password")
+    	}
+    
+	}
+
+	fun main(){
+    	var myclass = myClass("Ashu",101,"mypassword")
+    	myclass = myClass("secondpassword")
+	} */
+	//Output
+	/* Name = Ashu
+	Id = 101
+	password = mypassword
+	*/
