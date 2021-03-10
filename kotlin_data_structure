@@ -498,4 +498,10 @@
 	The expression right side of Elvis operator evaluated only if the left side returns null.
 //Kotlin Array
 	//Array in Kotlin has mutable in nature with fixed size. Which means we can perform both read and writes operations on elements of array.
-	
+//Kotlin Class and Object
+	//Kotlin class is similar to Java class, a class is a blueprint for the objects which have common properties. Kotlin classes are declared using keyword class. Kotlin class has a class header which specifies its type parameters,
+	constructor etc. and the class body which is surrounded by curly braces.
+	/* class className constructor(){   // class header  
+      		// property  
+      		// member function  
+		} */
