@@ -714,3 +714,58 @@
 	Name = abhinesh
 	Id = 543
 	*/
+	//Calling supper class secondary constructor from derived class secondary constructor
+	In Kotlin, one derived class secondary constructor can call the base class secondary constructor. This is done using super keyword, this is the concept of inheritance.
+	//Code
+	/* open class Parent{
+
+	    constructor(name: String,id: Int) {
+		println("this executes first")
+		println("Name = $name")
+		println("id = $id")
+	    }
+
+	    constructor(name: String,id: Int,pass: String) {
+		println("this executes third")
+		println("Name = $name")
+		println("id = $id")
+		println("password = $pass")
+	    }
+		}
+
+	class Child:Parent {
+	    constructor(name: String,id: Int): super(name, id) {
+		println("this executes second")
+		println("Name = $name")
+		println("id = $id")
+	    }
+
+	    constructor(name: String,id: Int,pass: String): super(name, id,pass) {
+		println("this executes fourth")
+		println("Name = $name")
+		println("id = $id")
+		println("password = $pass")
+	    }
+
+	}
+
+	fun main() {
+	    var obj1 = Child("abhinesh",100)
+	    var obj2 = Child("chandra",200,"mypassword")
+	} */
+	//Output
+	/* this executes first
+	Name = abhinesh
+	id = 100
+	this executes second
+	Name = abhinesh
+	id = 100
+	this executes third
+	Name = chandra
+	id = 200
+	password = mypassword
+	this executes fourth
+	Name = chandra
+	id = 200
+	password = mypassword
+	*/
