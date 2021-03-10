@@ -599,3 +599,20 @@
 	/* code inside inner class
 	name is Ashu
 	id is 101 */
+//Kotlin Constructor
+		//In Kotlin, constructor is a block of code similar to method. Constructor is declared with the same name as the class followed by parenthesis '()'. 
+		Constructor is used to initialize the variables at the time of object creation.
+		//Code
+		/* class myClass(val name: String, var id: Int) {
+
+		}
+
+		fun main() {
+    		val myclass = myClass("Ashu",101)
+
+    		println("Name = ${myclass.name}")
+    		println("Id = ${myclass.id}")
+		} */
+		//Output
+		/* Name = Ashu
+		Id = 101 */
