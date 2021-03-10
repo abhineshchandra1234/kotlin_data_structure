@@ -616,3 +616,25 @@
 		//Output
 		/* Name = Ashu
 		Id = 101 */
+//Primary constructor with initializer block
+	// At the period of instance initialization, the initialized blocks are executed in the same order as they appear in class body.
+	//Code
+	/* class myClass(name: String, id: Int) {
+    	val e_name : String
+    	var e_id : Int
+
+    	init {
+        e_name = name.capitalize()
+        e_id = id
+
+        println("Name = $e_name")
+        println("Id = $e_id")
+    	}
+	}
+
+	fun main() {
+    	val myclass = myClass("ashu",101)
+	} */
+	//Output
+	/* Name = Ashu
+	Id = 101 */
