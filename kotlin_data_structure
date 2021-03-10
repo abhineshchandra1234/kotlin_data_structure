@@ -538,3 +538,36 @@
 	*/
 	//Output
 	//Account no 832345 holder Ankit amount 100.0
+//Kotlin Nested class
+	//Nested class is such class which is created inside another class. In Kotlin, nested class is by default static, so its data member
+	and member function can be accessed without creating an object of class.
+	Nested class cannot be able to access the data member of outer class.
+		/* class outerClass{  
+		//outer class code  
+			class nestedClass{  
+			//nested class code  
+			}  
+		}  */
+	//Code
+	/* class outerClass{
+    	private var name: String = "Ashu"
+    
+   	 class nestedClass{
+        	var description: String = "code inside nested class"
+        	private var Id: Int = 101
+        
+        	fun foo(){
+            	println("Id is $Id")
+        	}
+
+    	}
+	}
+
+	fun main() {
+    	println(outerClass.nestedClass().description)
+    	var obj = outerClass.nestedClass()
+    	obj.foo()
+	} */
+	//Output
+	/* code inside nested class
+	Id is 101 */
