@@ -576,3 +576,26 @@
 	we can say that a nested class which is marked as "inner" is called inner class.
 	The advantage of inner class over nested class is that, it is able to access members
 	of outer class even it is private. Inner class keeps a reference to an object of outer class.
+	//Code
+	/* class outerClass{
+    	private var name: String = "Ashu"
+    	inner class innerClass  {
+        var description: String = "code inside inner class"
+        private var id : Int = 101
+
+        fun foo() {
+            println("name is $name")
+            println("id is $id")
+        }
+    	}
+	}
+
+	fun main() {
+    	println(outerClass().innerClass().description)
+    	var obj = outerClass().innerClass()
+    	obj.foo()
+	} */
+	//Output
+	/* code inside inner class
+	name is Ashu
+	id is 101 */
