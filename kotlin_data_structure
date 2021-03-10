@@ -505,3 +505,28 @@
       		// property  
       		// member function  
 		} */
+	//Object
+		//Object is real time entity or may be a logical entity which has state and behavior. It has the characteristics:
+		//var obj1 = className()  
+	//Code
+	/* class account {
+    	var acct_no: Int = 0
+    	var name: String? = null
+    	var amount: Float = 0f
+
+
+   	 fun deposit()   {
+        println("abhi is a good boy")
+    	}
+	}
+
+	fun main()  {
+    	var acc = account()
+    	acc.name = "abhi"
+    	println(acc.name)
+    	println(acc.deposit())
+	} */
+	//Output
+	/* abhi
+	abhi is a good boy
+	kotlin.Unit */
