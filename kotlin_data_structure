@@ -571,3 +571,8 @@
 	//Output
 	/* code inside nested class
 	Id is 101 */
+//Kotlin Inner class
+	//Inner class is a class which is created inside another class with keyword inner. In other words,
+	we can say that a nested class which is marked as "inner" is called inner class.
+	The advantage of inner class over nested class is that, it is able to access members
+	of outer class even it is private. Inner class keeps a reference to an object of outer class.
