@@ -516,17 +516,17 @@
 
 
    	 fun deposit()   {
-        println("abhi is a good boy")
-    	}
+        	println("abhi is a good boy")
+    		}
 	}
 
 	fun main()  {
     	var acc = account()
     	acc.name = "abhi"
     	println(acc.name)
-    	println(acc.deposit())
+    	acc.deposit()
 	} */
 	//Output
 	/* abhi
 	abhi is a good boy
-	kotlin.Unit */
+	*/
