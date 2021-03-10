@@ -530,3 +530,11 @@
 	/* abhi
 	abhi is a good boy
 	*/
+	//Code
+	/* fun insert(ac: Int,n: String,am: Float) {
+        println("Account no ${ac} holder ${n} amount ${am}")
+    	}
+	acc.insert(832345,"Ankit",100f)
+	*/
+	//Output
+	//Account no 832345 holder Ankit amount 100.0
