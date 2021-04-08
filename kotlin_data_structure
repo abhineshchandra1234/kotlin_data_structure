@@ -769,3 +769,7 @@
 	id = 200
 	password = mypassword
 	*/
+//Scoped Functions
+	//There are five scoped functions in Kotlin: let, run, with, also and apply. 
+	//let
+	
